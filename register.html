@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Design by foolishdeveloper.com -->
-    <title>Industrial Tycoon Login</title>
+    <title>Industrial Tycoon Registro</title>
  
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -91,6 +91,31 @@
             font-size: 16px;
             font-weight: 500;
         }
+        /* input{
+            display: block;
+            height: 50px;
+            width: 100%;
+            background-color: rgba(255,255,255,0.07);
+            border-radius: 3px;
+            padding: 0 10px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 300;
+        } */
+
+        /* .checkbox{
+            display: block;
+            height: 20px;
+            width: 100%;
+            background-color: rgba(255,255,255,0.07);
+            border-radius: 3px;
+            padding: 0 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            font-size: 8px;
+            font-weight: 100;
+        } */
         ::placeholder{
             color: #e5e5e5;
         }
@@ -110,6 +135,8 @@
             margin-left: 0%;
         }
 
+        
+
     </style>
 
 </head>
@@ -121,27 +148,14 @@
         <div class="shape"></div>
     </div>
 
-    <form action="action_page.php" method="null">
+    <form action="action_page.php" method="post">
 
         <h3>Crear Cuenta</h3>
-        <label>Nombre(s)</label>
-        <input type="text" class="form-control" id="input_nombre" placeholder="Nombre">
-        <br>
-        
-        <label>Apellidos</label>
-        <input type="text" class="form-control" id="input_apellios" placeholder="Apellidos">
-        <br>
 
-        <label>Código de estudiante</label>
-        <input type="text" class="form-control" id="input_nombre" placeholder="Código">
-
-        <label>Nombre</label>
-        <input type="text" class="form-control" id="input_nombre" placeholder="Nombre">
-        
         <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
         <div class="form-group row">
             <div class="col-sm-10">
-                <input type="email" class="form-control" id="input_email" placeholder="Email">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
             </div>
         </div>
 
@@ -151,7 +165,7 @@
                 <input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
             </div>
         </div>
-
+de
         <label for="inputPassword3" class="col-sm-2 col-form-label">Confirmar Contraseña</label>
         <div class="form-group row">
             <div class="col-sm-10">
@@ -160,11 +174,13 @@
         </div>
                 
         <div class="card-footer">
-
-            <a href="../register.html"><button type="submit" class="btn btn-info">Crear cuenta</button></a>
-            <br>
-            <br>
+            <a href="../register.html"><button type="submit" class="btn btn-info">Registrarse</button></a>
         </div>
+        <br>
+        <div>
+            <a href="#">Recuperar contraseña</a>
+        </div>
+
     </form>
 
     <!--Sacado de github -->
