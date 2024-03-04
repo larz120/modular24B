@@ -2695,16 +2695,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-info {
-  color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  color: #080808;
+  background-color: #f2921d;
+  border-color:#e8791e;
   box-shadow: none;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+  background-color: #fc9657;
+  border-color: #de8d57;
 }
 
 .btn-info:focus, .btn-info.focus {
